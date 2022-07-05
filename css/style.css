@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.sidebar-droite{
+	position: absolute;
+	background-color: red;
+	left: 50vw;
+	width: 50vw;
+	height: 100vh;
+	border-radius: 5px;
+
+}
+input, textarea{
+	border-style: none;
+	width: 50%;
+	margin-top: 2%;
+	
+}
+textarea:focus{
+	border-style: none;
+	outline: none;
+
+
+}
+.article{
+	background-color: royalblue;
+	border-radius: 5px;
+	margin-top: 1vh;
+}
+.sidebar-gauche{
+	position: absolute;
+	background-color: beige;
+	margin-left: 1%;
+	width: 49vw;
+	height: 100vh;
+	border-radius: 5px;
+
+}
+.sidebar-gauche input{
+	border-style: none;
+	width: 50%;
+	height: 10%;
+}
+.sidebar-gauche input:focus{
+	border-style: none;
+	outline: none;
+
+}
+.sidebar-gauche button{
+	border-style: none;
+	height: 10%;
+	margin-left: 2%;
+	border-radius: 5px;
+	background-color: royalblue;
+}
+.formulaire_plein{
+
+}
+.image{
+max-width: 50vw;
+max-height: 100vh;
+}

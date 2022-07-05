@@ -1,0 +1,142 @@
+
+
+
+body, div, span{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.menu{
+	position: fixed;
+	display: block;
+	width: 100vw;
+	height: 10vh;
+	background-color: aliceblue;
+	padding-left: 25%;
+	padding-right: auto;
+	z-index: 200;
+	font-family: "Times New Roman", Times, "serif";
+}
+.menu_title{
+	margin-top: 1vw;
+	margin-left: 10vw;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.presentater{
+	
+	height: 60vh;
+	
+}
+.conteneur_nav{
+	padding-top: 10vh;
+
+	
+	
+}
+.main_conteneur{
+	position: absolute;
+	margin-left: 5vw;
+	display: flex;
+}
+.center_bas{
+	position: absolute;
+	top: 50vh;
+	left: 46vw;
+}
+.cover_media{
+	background-image: url("../images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+
+}
+.article{
+	display: inline-block;
+	position: relative;
+	width: 20vw;
+	height: 40vh;
+	border-radius: 5px;
+
+}
+.article img{
+    position: absolute;
+	margin-top: 0vh;
+	width: 20vw;
+	height: 40vh;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+	object-fit: cover;
+}
+.title_article{
+	background-color: rgba(0, 0, 0, 0.5);
+
+	z-index: 500;
+	position: absolute;
+	font-style: italic;
+	text-align: center;
+	justify-content: space-between;
+	width: 20vw;
+	height: 15vh;
+	top: 25vh;
+	color: white;
+	font-family: "Times New Roman", Times, "serif";
+
+}
+.link_contener{
+	text-align: center;
+	justify-content: space-between;
+	width: 8vw;
+	margin-left: 6vw;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+}
+.title_connection{
+	max-height: 3vh;
+	font-weight: bold;
+	font-size: 5vh;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav_gauche{
+	width: 30vw;
+	height: 40vh;
+	background-color: gold;
+}
+.flex_enfant{
+	display: inline-block;
+}
+.container_login{
+	width: 30vw;
+	height: 50vh;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	outline-style: none;
+	outline-width: 0.0001vw;
+	padding-top: 10vh;
+
+	box-shadow: 0px 0px 10px blue;
+	text-align: center;
+}
+.input{
+	display: block;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 25vw;
+	margin-bottom: 2vh;
+
+}
+.input:focus{
+	font-weight: bold;
+
+}
+.input:invalid{ border: 1px solid red; }
